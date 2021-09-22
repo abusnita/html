@@ -8,7 +8,7 @@ a) [ ] `<div><span>hello</div></span>`
 
 b) [ ]
 
-PUSH PULL TEST
+GIT PUSH PULL TEST 
 
 ```html
 <ul>
