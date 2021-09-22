@@ -47,7 +47,7 @@ a) `a` <!-- anchor for links on a website -->
 
 b) `ol` <!-- ordered list-->
 
-c) `ul` <!-- unordered list-->
+c) `ul` <!-- bullet point list-->
 
 d) `li` <!-- list element -->
 
