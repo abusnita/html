@@ -1,1 +1,48 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Registration form</h1>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required>
+            <label for="password">Password</label>
+            <input type="text" name="password" id="password" required>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" required>
+
+            <h2>Which taxi do you require?</h2>
+            <input type="radio" name="taxi" id="car" value="Car" required>
+            <label for="car">Car</label>
+            <input type="radio" name="taxi" id="van" value="Van" required>
+            <label for="van">Van</label>
+            <input type="radio" name="taxi" id="tuk tuk" value="Tuk Tuk" required>
+            <label for="tuk tuk">Tuk Tuk</label>
+
+            <h2>Choose your extras</h2>
+            <input type="checkbox" name="extras" id="baby seat" value="Baby seat">
+            <label for="baby seat">Baby seat</label>
+            <input type="checkbox" name="extras" id="wheelchair" value="Wheelchair access">
+            <label for="wheelchair">Wheelchair access</label>
+            <input type="checkbox" name="extras" id="privacy" value="Privacy windows">
+            <label for="privacy">Privacy windows</label>
+
+            <h2>Where would you like us to pick you up?</h2>
+            <label for="p_location">Pickup Location:</label>
+            <select name="p_location" id="p_location">
+                <option value="null" selected>Select One</option>
+                <option value="school">College Charlemagne</option>
+                <option value="work">Innotech Aviation</option>
+                <option value="park">Eugene Dostie Park</option>
+                <option value="library">Ile Bizard Library</option>
+            </select>
+
+            <h2>Additional Instructions</h2> 
+            <label for="special instructions">Special</label>
+            <textarea rows="2" cols="20" id="special instructions" name="special instructions">provide special instructions here</textarea>
+        
+            <input type="submit" value="Submit">
+
+        </form>
+    </body>
+</html>
