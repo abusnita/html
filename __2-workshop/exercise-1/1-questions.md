@@ -70,7 +70,7 @@ g) `td` <!-- table data -->
 <!-- when the element doesn't have any children <a />, <img />, <hr />, <br />, etc -->
 
 ## Q11 - What is autofilling and why is it important?
-<!-- Autofilling is the function that fills in an input field automatically and it is important for reasons like speed, error correction and showing possible valid inputs to that field-->
+<!-- Autofilling is the function that fills in an input field automatically and it is important for reasons like speed, error correction and showing possible valid inputs to that field -->
 
 ## Q12 - Which attributes are always present in an img element?
 <!--The img elements always contain an src attribute to point to the image location -->
